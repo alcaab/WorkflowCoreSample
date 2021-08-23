@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.7" />
+    <PackageReference Include="WorkflowCore.Persistence.SqlServer" Version="3.5.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Contract.Domain\Contract.Domain.csproj" />
+    <ProjectReference Include="..\Contract.Services\Contract.Services.csproj" />
+  </ItemGroup>
+
+</Project>
